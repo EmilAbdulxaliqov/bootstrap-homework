@@ -1,0 +1,43 @@
+section{
+    padding: 5px;
+}
+.collection{
+    height: 205.5px;
+    width: 274px;
+    padding: 2px;
+}
+#collections{
+    width: 610px;
+}
+footer{
+    clear: both;
+    line-height: 100px;
+    height: 90px;
+    background-color: #999999;
+    color: #cac8c8;
+    border-top: 8px solid #49aaa4;
+    font-size: 12px;
+    margin-bottom: -100px;
+}
+@media screen and (max-width:768px){
+    .navbar{
+        text-align: center ;
+    }
+    .navbar-brand{
+        margin: 0 !important;
+        width: 100%;
+    }
+    .navbar-toggler{
+        position: absolute;
+        top: 21px;
+        right: 0px;
+        background-color: white !important;
+    }
+    .collection{
+        height: 150px;
+        width: 199px;
+    }
+    #collections{
+        width: 500px;
+    }
+}

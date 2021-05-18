@@ -1,0 +1,63 @@
+#form{
+    margin: 20px 20px 30px 50px;
+}
+input{
+    margin: 10px 0px;
+    padding: 10px;
+}
+label{
+    color: #777777;
+}
+textarea{
+    margin: 10px 0px;
+}
+#submit{
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    background-color: #49AAA4;
+    width: 120px;
+    height: 50px;
+    padding: 3px;
+    border: 1px solid #49AAA4;
+}
+section{
+    width: 620px;
+    height: 720px;
+    margin-bottom: 30px;
+}
+footer{
+    clear: both;
+    line-height: 100px;
+    height: 90px;
+    background-color: #999999;
+    color: #cac8c8;
+    border-top: 8px solid #49aaa4;
+    font-size: 12px;
+}
+@media screen and (max-width:768px){
+    .navbar{
+        text-align: center ;
+    }
+    .navbar-brand{
+        margin: 0 !important;
+        width: 100%;
+    }
+    .navbar-toggler{
+        position: absolute;
+        top: 21px;
+        right: 0px;
+        background-color: white;
+    }
+    section{
+        height: 620px;
+    }
+    input{
+        margin: 0px;
+        width: 80%;
+    }
+    #message{
+        margin: 0px;
+        width: 80%;
+    }
+}

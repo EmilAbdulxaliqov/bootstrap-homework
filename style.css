@@ -1,0 +1,27 @@
+footer{
+    clear: both;
+    line-height: 100px;
+    height: 90px;
+    background-color: #999999;
+    color: #cac8c8;
+    border-top: 8px solid #49aaa4;
+    font-size: 12px;
+}
+@media screen and (max-width:768px){
+    .navbar{
+        text-align: center ;
+    }
+    .navbar-brand{
+        margin: 0 !important;
+        width: 100%;
+    }
+    .navbar-toggler{
+        position: absolute;
+        top: 21px;
+        right: 0px;
+        background-color: white;
+
+    }
+}
+
+
